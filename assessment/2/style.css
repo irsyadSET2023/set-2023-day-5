@@ -1,0 +1,151 @@
+/* .column {
+  flex-basis: 50%;
+}
+
+td {
+  display: flex;
+  width: 700px;
+} */
+body {
+  background-color: #aeaeae;
+}
+
+.container-2,
+.container-1 {
+  background-color: white;
+  position: relative;
+}
+
+.im {
+  padding-left: 10px;
+}
+
+.icon {
+  display: flex;
+  justify-content: start;
+  padding-top: 10px;
+}
+
+.custom {
+  margin-top: 20px;
+  width: 326px;
+  height: 55px;
+  flex-shrink: 0;
+}
+
+/* .custom img {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+} */
+
+.custom .row-custom img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.container-2 {
+  margin-top: 30px;
+}
+
+.row-custom-list {
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  width: 200px;
+}
+
+.enlarged-text-field {
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.custom-1 {
+  margin-top: 100px;
+  width: 326px;
+  height: 155px;
+  margin-top: 20px;
+  width: 326px;
+  height: 55px;
+  flex-shrink: 0;
+}
+
+.custom-2 {
+  width: 326px;
+  height: 155px;
+  margin-top: 20px;
+  width: 326px;
+  height: 55px;
+  flex-shrink: 0;
+  margin-top: 50px;
+}
+
+.footer {
+  margin-top: 20px;
+  background: #fff;
+  box-shadow: 0px -18px 104px -20px rgba(80, 64, 161, 0.3);
+  border: 2px solid;
+}
+
+.btn-footer {
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 150px;
+}
+
+.footer-big {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-small {
+  color: #5040a1;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 151.023%;
+  margin-top: 10px;
+  /* 27.184px */
+}
+
+.footer-small-l {
+  margin-top: 10px;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer-big-l {
+  color: #5040a1;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.describe {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 151.023%; /* 24.164px */
+}
+
+.sv {
+  position: absolute;
+  z-index: 1;
+  right: 40px;
+  top: 380px;
+}
